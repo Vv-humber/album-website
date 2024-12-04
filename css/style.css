@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&family=Prata&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Prata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    background-color: black;
+}
+
+/* TEXT */
+
+h1 {
+    color: white;
+}
+
+h2 {
+    font-size: .7em;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: .85em;
+}
+
+/* BODY */
+
+body {
+    margin: 0;
+}
+
+/* WRAPPER */
+
+
+
+/* HEADER */
+
+.header {
+    position: relative;
+    height: 140px;
+}
+
+.header img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+    z-index: 1001;
+}
+
+/* NAV */
+
+.nav {
+    height: 10%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+}
+
+.section-container {
+    position: relative;
+    padding: 2% 3% 2% 3%;
+    display: flex;
+    align-items: center;
+}
+
+.nav section {
+    flex: 1;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding-right: 10%;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {color: #d51f26;}
+
+.nav section:nth-child(2) {
+    text-align: right;
+}
+
+.nav section:nth-child(2) a {
+    padding-left: 2%;
+}
+
+/* MAIN */
+
+.main h1 {
+    font-size: 2.2em;
+    line-height: .5;
+    text-align: right;
+    color: #d2674b;
+}
+
+.main h2 {
+    margin: 0;
+    padding-right: 40%;
+    font-size: 1em;
+    line-height: 3;
+    text-align: center;
+}
+
+.main {
+    padding: 5% 10% 8.5% 10%;
+    min-height: 100vh;
+    background-color: #801e25;
+}
+
+.album-mockup img {
+    width: 100%;
+}
+
+.band-info {
+    line-height: 200%;
+}
+
+.band-info h1 {
+    text-align: right;
+}
+
+.band-info p {
+    text-align: right;
+}
+
+.hr img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.music-button {
+    text-align: center;
+}
+
+
+.album-info img {
+    width: 100%;
+}
+
+hr {
+    margin: 100px;
+}
+
+.merch-section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2%;
+    row-gap: 5%;
+    align-items: center;
+}
+
+.merch-section-grid a img {
+    width: 100%;
+}
+
+.purchase-flex {
+    padding: 2%;
+    display: flex;
+    width: 100%;
+}
+
+.purchase-box {
+    flex: 1;
+    padding-left: 10%;
+}
+
+.main button {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Prata", serif;
+    background-color: #d2674b;
+    color: white;
+    border-radius: 8%;
+    border-color: #801e25;
+    line-height: 3;
+    float: center;
+}
+
+/* FOOTER */
+
+.end-banner img {
+    max-width: 100%;
+}
+
+.footer-info img {
+    height: 100%;
+    width: 50%;
+}
+
+.footer-info {
+    padding: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 80%;
+    align-items: center;
+}
+
+.footer-container:nth-child(2) {
+    text-align: center;
+}
+
+.footer-container:nth-child(3) {
+    text-align: right;
+}
+
+.footer h1 {
+    font-size: 5em;
+}
+
+.footer h2 {
+    font-size: .7em;
+    color: #5c2d2d;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    line-height: 200%;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {color: #d51f26;}
